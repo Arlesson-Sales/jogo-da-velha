@@ -1,2 +1,2 @@
-# jogo-da-velha
-Um jogo da velha, você contra a cpu, usando HTML, CSS e javascript
+# jogo da velha
+Um jogo da velha simples, você contra a cpu. Usando HTML, CSS e javascript.
