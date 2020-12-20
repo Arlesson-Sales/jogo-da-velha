@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="main-style.css">
+  </head>
+  <body>
+    <main>
+      <section id="mainMenu" class="mainMenu menu">
+        <form method="get" action="#">
+          <ul>
+            <li>Nivel 
+              <select>
+                <optgroup label="Nivel de dificuldade">
+                  <option value="1">Facil</option>
+                  <option value="2">Normal</option>
+                  <option value="3" disabled>Difícil</option>
+                </optgroup>
+              </select>
+            </li>
+            <li onclick="start()">Iniciar</li>
+          </ul>
+        </form>
+      </section>
+      
+      <section id="board" class="board">
+        <p id="message">Jogo da velha</p>
+        <div id="case-1" class="board-case" onclick="play(0)"></div>
+        <div id="case-2" class="board-case" onclick="play(1)"></div>
+        <div id="case-3" class="board-case" onclick="play(2)"></div>
+        <div id="case-4" class="board-case" onclick="play(3)"></div>
+        <div id="case-5" class="board-case" onclick="play(4)"></div>
+        <div id="case-6" class="board-case" onclick="play(5)"></div>
+        <div id="case-7" class="board-case" onclick="play(6)"></div>
+        <div id="case-8" class="board-case" onclick="play(7)"></div>
+        <div id="case-9" class="board-case" onclick="play(8)"></div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
